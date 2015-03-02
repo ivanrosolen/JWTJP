@@ -1,0 +1,22 @@
+{
+    "name": "JWTJP",
+    "type": "project",
+    "description": "JWT JQuery PHP",
+    "require": {
+        "php": ">=5.5",
+        "respect/rest": "0.5.x",
+        "respect/config": "0.3.x",
+        "robmorgan/phinx": "*",
+        "doctrine/dbal": "2.3.5",
+        "lcobucci/jwt": "~2.0"
+    },
+    "minimum-stability": "stable",
+    "autoload":{
+        "psr-4":{
+            "JWTJP\\":"application/library/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
